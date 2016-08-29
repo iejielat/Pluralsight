@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Pluralsight.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
         public string Index()
         {
-            return "hellow from the controller";
+            return "hello from the controller";
         }
     }
 }
